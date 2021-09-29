@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.label {
+  margin-right: 20px;
+}
+
+.input {
+  margin-left: 20px;
+}
+
+.tabla {
+  font-size: 10px;
+  width: 73%;
+}
+
+.containerTable {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.containerEmployee {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.table-header {
+  width: 10%;
+}
+
+.table-header-id {
+  width: 0%;
+}
+
+.detailbutton {
+  width: 0%;
+}
+
+.detailbutton button {
+  background: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.detailbutton button:hover {
+  background: #595959;
+  border: 1px solid #595959;
+}
+
+.updatebutton {
+  width: 0%;
+}
+
+.updatebutton button {
+  background: #26cf24;
+  border: 1px solid #26cf24;
+  cursor: pointer;
+}
+
+.updatebutton button:hover {
+  background: #468949;
+  border: 1px solid #468949;
+}
+
+.deletebutton {
+  width: 0%;
+}
+
+.deletebutton button {
+  background: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.deletebutton button:hover {
+  background: #c81e1e;
+  border: 1px solid #c81e1e;
+}
+
+.svg {
+  color: white;
+}
+
+.containerAdd {
+  display: flex;
+  flex-direction: column;
+}
+
+.addItem {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  width: 12%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
